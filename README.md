@@ -24,9 +24,10 @@ The item is for entertainment only.
 #### get_competitions
 Get all the competitions. Return a dict object.
 Usages:
-
-    import loleventdata
-    competitions = loleventdata.get_competitions()
+```
+	import loleventdata
+        competitions = loleventdata.get_competitions()
+```
 #### get_team_competition_info
 Get all the teams in the specific Competition. Returns a dict object.
 Params:
